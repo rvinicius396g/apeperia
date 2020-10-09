@@ -1,0 +1,7 @@
+ //darker deixa mais escura
+ $cor-padrao: darker(#96403E, 30%);
+ // lightenmais clara
+ $cor-auxiliar: lighten(#1e2c35, 50%);
+ $cor-branca: #fff;
+ $ponto-de-quebra: 980px;
+ $mq-mobile: "(max-width: 980px)";

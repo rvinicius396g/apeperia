@@ -1,0 +1,15 @@
+// comentários em SASS
+@import 'headers/variaveis.scss';
+@import 'headers/mixims.scss';
+//importando o css
+@import 'base/normalize';
+//Só fica disponivel para leitura o código CSS, o Mixim e suas váriaveis não aprece no compilado
+@import 'layout/geral.scss';
+@import 'layout/header.scss';
+//também podemos fazera importação, sem especificar a extensão 
+@import 'layout/destaque';
+@import 'layout/sobre';
+@import 'layout/plano';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';
